@@ -28,9 +28,13 @@ for i in range (2):
 import math
 r = float(input("Input the radius of the circle :"))
 print("The area of the circle is:"+ format(float(math.pi* r**2 ),".2f"))'''
-#Task 5
+'''#Task 5
 import random
 target_num , guess_num = random.randint(1, 10), 0
 while target_num != guess_num:
     guess_num = int(input('Guess a number between 1 and 10 until you get it right : '))
-print('Well guessed!')
+print('Well guessed!')'''
+#Task 6
+celsius = float(input("Enter temperature in celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print('%.2f Celsius is: %0.2f Fahrenheit' %(celsius, fahrenheit))
