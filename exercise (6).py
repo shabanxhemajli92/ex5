@@ -24,7 +24,13 @@ for i in range (2):
         print("{0} is Even an even number ".format(a))
     else:
         print("{0} is Odd number ".format(a))'''
-# Task 4
+'''# Task 4
 import math
 r = float(input("Input the radius of the circle :"))
-print("The area of the circle is:"+ format(float(math.pi* r**2 ),".2f"))
+print("The area of the circle is:"+ format(float(math.pi* r**2 ),".2f"))'''
+#Task 5
+import random
+target_num , guess_num = random.randint(1, 10), 0
+while target_num != guess_num:
+    guess_num = int(input('Guess a number between 1 and 10 until you get it right : '))
+print('Well guessed!')
