@@ -7,7 +7,7 @@ b = int(input("Enter second number:"))
 c= int(input("Enter second number:"))
 sum = a+b+c 
 print("The tripple sum is:"+ str(sum))'''
-#Task2
+'''#Task2
 for i in range(3):
     a =int(input("First number "))
     b = int(input("Second number "))
@@ -16,5 +16,15 @@ for i in range(3):
     else:
         diff = b - a
 
-    print("The result of the calculation is:" + str(diff))
-
+    print("The result of the calculation is:" + str(diff))'''
+'''#Task 3
+for i in range (2):
+    a = int(input("Enter a number: "))
+    if (a % 2) == 0:
+        print("{0} is Even an even number ".format(a))
+    else:
+        print("{0} is Odd number ".format(a))'''
+# Task 4
+import math
+r = float(input("Input the radius of the circle :"))
+print("The area of the circle is:"+ format(float(math.pi* r**2 ),".2f"))
